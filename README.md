@@ -1,7 +1,11 @@
 # zabbix
+<br>
 #27/Jan/2022#
+<br>
 #Edson Junior#
+<br>
 #Uberlândia/MG#
+<br>
 
 = Arquivos de conf do zabbix para facilitar na inclusão nos hosts com agent
 <br>
