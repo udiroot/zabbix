@@ -12,3 +12,6 @@
 <br>
 = Depois de copiado o arquivo para o diretório do zabbix, voltar o nome dele para o nome padrão e validar as permissões
 <br>
+= Manual de instalação do Zabbix 5.0 LTS com Apache no ubuntu 20
+<br>
+
