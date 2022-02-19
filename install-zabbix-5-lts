@@ -1,4 +1,4 @@
-** INSTALANDO O ZABBIX 5 LTS NO UBUNTU 20 **
+** INSTALANDO O ZABBIX 5 LTS NO UBUNTU 20 COM APACHE**
 - Instale o ubuntu 20
 - Ajuste o ip fixo
 cd /etc/netplan/ 
