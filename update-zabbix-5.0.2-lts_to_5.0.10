@@ -14,7 +14,7 @@ wget https://repo.zabbix.com/zabbix/5.0/ubuntu/pool/main/z/zabbix/zabbix-agent_5
 Caso o seu php estiver na versão 5.x, rode o comando abaixo:
 apt install php7.4-pgsql
 
-- FAÇA UM BACKUP DOS AQRQUIVOS DA PASTA A SEGUIR:
+- FAÇA UM BACKUP DOS ARQUIVOS DA PASTA A SEGUIR:
 /etc/zabbix
 
 - ENTRE NA PASTA /TMP E INSTALE OS PACOTES:
@@ -25,7 +25,7 @@ dpkg -i zabbix-agent_5.0.10-1%2Bfocal_amd64.deb
 
 Caso de erro de dependencia, rode o comando apt install -f
 
-- DEPOIS DE FINALIZADO A INSTALAÇÃO VOLTE OS ARQUIVOS ORIGINAIS DO BACKUP E SUBSTITUA OS ABAIXO:
+- DEPOIS DE FINALIZADO A INSTALAÇÃO VOLTE OS ARQUIVOS ORIGINAIS DO BACKUP E SUBSTITUA OS ARQUIVOS ABAIXO:
 /etc/zabbix/zabbix_server.conf e zabbix_agentd.conf
 
 - DEPOIS REINICIA OS SERVIÇOS DO ZABBIX:
