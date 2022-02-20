@@ -1,6 +1,6 @@
 # zabbix
 <br>
-#27/Jan/2022#
+CRIADO EM 27/Jan/2022#
 <br>
 #Edson Junior#
 <br>
@@ -8,10 +8,5 @@
 <br>
 <br>
 
-= Arquivos de conf do zabbix para facilitar na inclusão nos hosts com agent
+= O OBJETIVO AQUI É FACILITCAR O ENTENDIMENTO E AJUDAR OS ANALISTAS DE OBSERVABILIADE A INSTALAR E ATUALIZAR OS PRODUTOS DE MONITORIA
 <br>
-= Depois de copiado o arquivo para o diretório do zabbix, voltar o nome dele para o nome padrão e validar as permissões
-<br>
-= Manual de instalação do Zabbix 5.0 LTS com Apache no ubuntu 20
-<br>
-
