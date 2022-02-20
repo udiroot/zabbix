@@ -1,0 +1,34 @@
+** UPDATE ZABBIX 5.0.2 LTS UBUNTU 20 VIA REPOSITORIO - STANDALONE**
+# Esse update é via repositório UBUNTU
+
+- ACESSE O SITE REPO ZABBIX
+https://repo.zabbix.com/zabbix/5.0/ubuntu/pool/main/z/zabbix-release/
+
+- ESCOLHA O REPOSITORIO ABAIXO E BAIXE VIA WGET:
+cd /tmp
+wget https://repo.zabbix.com/zabbix/5.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_5.0-1%2Bfocal_all.deb
+
+Caso o seu php estiver na versão 5.x, rode o comando abaixo:
+apt install php7.4-pgsql
+
+- FAÇA UM BACKUP DOS ARQUIVOS DA PASTA A SEGUIR:
+/etc/zabbix
+
+- ENTRE NA PASTA /TMP E INSTALE O PACOTE:
+dpkg -i zabbix-release_5.0-1%2Bfocal_all.deb
+
+apt update
+apt list --upgradable | grep zabbix (checar se a versão nova foi localizada)
+apt upgrade -y
+
+Se solicitar para atualiar os conf, confirme com Y, pos o backup ja foi efetuado.
+
+Caso de erro de dependencia, rode o comando apt install -f
+
+- DEPOIS DE FINALIZADO A INSTALAÇÃO VOLTE OS ARQUIVOS ORIGINAIS DO BACKUP E SUBSTITUA OS ARQUIVOS ABAIXO:
+/etc/zabbix/zabbix_server.conf e zabbix_agentd.conf
+
+- DEPOIS REINICIA OS SERVIÇOS DO ZABBIX:
+systemctl restart zabbix-server zabbix-agent
+
+
